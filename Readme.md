@@ -59,14 +59,41 @@ The analysis revealed several key insights into the bike-share service's usage:
 * **Seasonal Trends:** The service sees the highest usage during the warmer months (from May to September) and a noticeable decline during the winter.
 * **Popular Stations:** The most frequently used start stations are located in downtown commercial areas and near major public transit hubs, reinforcing the conclusion that commuting is a primary use case.
 
-## 6. Future Work
+## 6. How to Run This Project
+
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook Support
+
+### Installation
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/faizansk25/Analysis-of-Bike-Share-Rider-Patterns.git
+    cd Analysis-of-Bike-Share-Rider-Patterns
+    ```
+
+2.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Data Setup**:
+    - Place your `bikeshare.csv` dataset in the project root directory.
+    - Open `Bike-Share Usage Analysis.ipynb` and run all cells. This will generate the `cleaned_bikeshare.csv` used by the dashboard.
+
+4.  **Launch Dashboard**:
+    ```bash
+    streamlit run dashboard.py
+    ```
+
+## 7. Future Work
 
 This EDA serves as a foundational analysis of rider patterns. The next logical step for this project is to integrate an external weather dataset. This will allow for a deeper analysis to determine how factors like **temperature**, **precipitation**, and **wind speed** correlate with bike rental demand, ultimately building a predictive model for the service.
 
 ---
 **Author:** Faizan Muktar Shaikh
 
-## 7. Dashboard Preview
+## 8. Dashboard Preview
 
 ![Dashboard Overview](assets/dashboard_overview.png)
 *Overview of Key Metrics and Trends*
