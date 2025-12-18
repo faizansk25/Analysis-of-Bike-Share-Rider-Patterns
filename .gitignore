@@ -1,0 +1,18 @@
+# Data
+*.csv
+*.xlsx
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+Thumbs.db
+
+# Virtual Env
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
