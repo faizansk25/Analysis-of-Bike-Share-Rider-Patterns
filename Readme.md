@@ -78,7 +78,11 @@ The analysis revealed several key insights into the bike-share service's usage:
     ```
 
 3.  **Data Setup**:
-    - Place your `bikeshare.csv` dataset in the project root directory.
+    - The raw dataset `bikeshare.csv` is included in this repository via **Git LFS**.
+    - If the file is a pointer (small size) after cloning, run:
+      ```bash
+      git lfs pull
+      ```
     - Open `Bike-Share Usage Analysis.ipynb` and run all cells. This will generate the `cleaned_bikeshare.csv` used by the dashboard.
 
 4.  **Launch Dashboard**:

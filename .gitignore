@@ -1,5 +1,6 @@
 # Data
 *.csv
+!bikeshare.csv
 *.xlsx
 __pycache__/
 *.pyc
